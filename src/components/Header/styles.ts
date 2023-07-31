@@ -31,7 +31,7 @@ export const HeaderButtonsContainer = styled.div`
 `;
 
 interface HeaderButtonProps {
-  variant: 'purple' | 'yellow' | 'red';
+  variant: 'yellow' | 'red';
 }
 
 export const HeaderButton = styled.button<HeaderButtonProps>`
