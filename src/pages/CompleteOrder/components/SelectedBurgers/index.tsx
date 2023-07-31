@@ -12,9 +12,11 @@ export function SelectedBurgers() {
         Burgers selecionados
       </TitleText>
       <DetailsContainer>
-        {cartItems.map((item) => (
-          <BurgerCartCard key={item.id} burger={item} />
-        ))}
+        <div>
+          {cartItems.map((item) => (
+            <BurgerCartCard key={item.id} burger={item} />
+          ))}
+        </div>
 
         <ConfirmationSection />
       </DetailsContainer>

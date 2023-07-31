@@ -14,13 +14,13 @@ enum PaymentMethod {
 }
 
 const confirmOrderFormValidationSchema = zod.object({
-  cep: zod.string().min(1, 'informe o Cep'),
-  street: zod.string().min(1, 'informe a Rua'),
-  number: zod.string().min(1, 'informe o Numero'),
+  cep: zod.string().min(1, 'informar o Cep'),
+  street: zod.string().min(1, 'informar a Rua'),
+  number: zod.string().min(1, 'informar o Numero'),
   complement: zod.string(),
-  district: zod.string().min(1, 'informe o Bairro'),
-  city: zod.string().min(1, 'informe a Cidade'),
-  uf: zod.string().min(1, 'informe o UF'),
+  district: zod.string().min(1, 'informar o Bairro'),
+  city: zod.string().min(1, 'informar a Cidade'),
+  uf: zod.string().min(1, 'inserir UF'),
   paymentMethod: zod.nativeEnum(PaymentMethod, {
     errorMap: () => {
       return { message: 'Informe o método de pagamento' };

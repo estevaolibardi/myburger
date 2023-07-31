@@ -8,6 +8,7 @@ export const BurgerCartCardContainer = styled.div`
 
   border-bottom: 1px solid ${({ theme }) => theme.colors['base-button']};
   padding-bottom: 1.5rem;
+  padding-right: 1rem;
   margin-bottom: 1.5rem;
 
   > div {
@@ -16,8 +17,8 @@ export const BurgerCartCardContainer = styled.div`
     gap: 1.25rem;
 
     img {
-      width: 4rem;
-      height: 4rem;
+      width: 7rem;
+      height: auto;
     }
   }
 

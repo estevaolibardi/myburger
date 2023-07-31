@@ -1,15 +1,13 @@
 export const burgers = [
   {
     id: 1,
-    tags: ['tradicional'],
-    name: 'Expresso Tradicional',
+    name: ' Tradicional',
     description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
     photo: 'h1.png',
     price: 9.9,
   },
   {
     id: 2,
-    tags: ['tradicional'],
     name: 'X-Bacon',
     description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
     photo: 'h2.png',
@@ -17,7 +15,6 @@ export const burgers = [
   },
   {
     id: 3,
-    tags: ['tradicional'],
     name: 'X-Salada',
     description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
     photo: 'h3.png',
@@ -25,7 +22,6 @@ export const burgers = [
   },
   {
     id: 4,
-    tags: ['tradicional', 'gelado'],
     name: 'X-Picanha-Duplo',
     description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
     photo: 'h4.png',
@@ -33,7 +29,6 @@ export const burgers = [
   },
   {
     id: 5,
-    tags: ['tradicional', 'com leite'],
     name: 'Wropper',
     description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
     photo: 'h5.png',
@@ -41,7 +36,6 @@ export const burgers = [
   },
   {
     id: 6,
-    tags: ['tradicional', 'com leite'],
     name: 'Egg-Plus',
     description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
     photo: 'h6.png',
@@ -49,7 +43,6 @@ export const burgers = [
   },
   {
     id: 7,
-    tags: ['tradicional', 'com leite'],
     name: 'X-Frango',
     description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
     photo: 'h7.png',
@@ -57,7 +50,6 @@ export const burgers = [
   },
   {
     id: 8,
-    tags: ['tradicional', 'com leite'],
     name: 'Little One',
     description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
     photo: 'h8.png',
@@ -65,7 +57,6 @@ export const burgers = [
   },
   {
     id: 9,
-    tags: ['tradicional', 'com leite'],
     name: 'Giga Burguer',
     description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
     photo: 'h9.png',
@@ -73,7 +64,6 @@ export const burgers = [
   },
   {
     id: 10,
-    tags: ['especial', 'com leite'],
     name: 'Picanha Monster',
     description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
     photo: 'h10.png',
@@ -81,7 +71,6 @@ export const burgers = [
   },
   {
     id: 11,
-    tags: ['especial', 'alcoólico', 'gelado'],
     name: 'Picanha Z',
     description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
     photo: 'h11.png',
@@ -89,7 +78,6 @@ export const burgers = [
   },
   {
     id: 12,
-    tags: ['especial'],
     name: 'My Cheddar',
     description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
     photo: 'h12.png',
@@ -97,7 +85,6 @@ export const burgers = [
   },
   {
     id: 13,
-    tags: ['especial'],
     name: 'Porção Cebola',
     description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
     photo: 'c1.png',
@@ -105,7 +92,6 @@ export const burgers = [
   },
   {
     id: 14,
-    tags: ['especial'],
     name: 'Onion Crispy',
     description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
     photo: 'c2.png',
@@ -113,7 +99,6 @@ export const burgers = [
   },
   {
     id: 15,
-    tags: ['especial', 'alcoólico'],
     name: 'Asa empanada',
     description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
     photo: 'asa.png',
