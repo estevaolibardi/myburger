@@ -14,7 +14,7 @@ import { useState } from 'react';
 
 export interface Burger {
   id: number;
-  tags: string[];
+  tags?: string[];
   name: string;
   description: string;
   photo: string;
