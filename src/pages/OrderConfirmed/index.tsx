@@ -36,7 +36,7 @@ export function OrderConfirmedPage() {
           Uhu! Pedido confirmado
         </TitleText>
         <RegularText size="l" color="subtitle">
-          Agora é só aguardar que logo o café chegará até você
+          Agora é só aguardar que logo o pedido chegará até você
         </RegularText>
       </div>
 
