@@ -6,7 +6,6 @@ import {
   BurgerCardContainer,
   Description,
   Name,
-  Tags,
 } from './styles';
 import { ShoppingCart } from 'phosphor-react';
 import { formatMoney } from '../../../../utils/FormatMoney';
