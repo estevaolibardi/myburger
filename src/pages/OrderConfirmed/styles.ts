@@ -3,17 +3,20 @@ import styled from 'styled-components';
 export const OrderConfirmedContainer = styled.div`
   display: flex;
   flex-direction: column;
-  gap: 2.5rem;
   margin-top: 5rem;
 
   h1 {
-    color: ${({ theme }) => theme.colors['brand-yellow-dark']};
+    color: ${({ theme }) => theme.colors['brand-red-ce']};
   }
 
   > section {
     display: flex;
     align-items: center;
     justify-content: space-between;
+
+    img {
+      max-width: 40rem;
+    }
   }
 `;
 
@@ -33,6 +36,6 @@ export const OrderDetailsContainer = styled.div`
     inset: -1px;
     border-radius: 7px 37px 7px 37px;
     z-index: -1;
-    background: linear-gradient(102.89deg, #dbac2c 2.61%, #8047f8 98.76%);
+    background: linear-gradient(102.89deg, #dbac2c 2.61%, #cc001e 98.76%);
   }
 `;

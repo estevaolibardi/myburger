@@ -10,10 +10,13 @@ export const GlobalStyle = createGlobalStyle`
 }
 
 
+
 body{
     background: ${({ theme }) => theme.colors['base-background']};
     color: ${({ theme }) => theme.colors['base-text']};
     -webkit-font-smoothing: antialiased;
+    overflow: overlay;
+    
 } 
 
 body, input, textarea, button{

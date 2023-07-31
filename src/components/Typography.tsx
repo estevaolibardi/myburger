@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 interface TitleTextProps {
-  color?: 'title' | 'subtitle' | 'text' | 'title2' | 'red';
+  color?: 'title' | 'subtitle' | 'text' | 'title2' | 'red' | 'red-ce';
   size?: 'xl' | 'l' | 'm' | 's' | 'xs';
   weight?: string | number;
 }

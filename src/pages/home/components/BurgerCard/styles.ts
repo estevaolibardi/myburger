@@ -16,7 +16,7 @@ export const BurgerCardContainer = styled.div`
   img {
     width: 11.8rem;
     height: auto;
-    margin-top: -1.25rem;
+    margin-top: -1.6rem;
   }
 `;
 
@@ -53,7 +53,7 @@ export const Description = styled(RegularText).attrs({
   size: 's',
   color: 'label',
 })`
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
 `;
 
 export const CardFooter = styled.div`
@@ -90,7 +90,7 @@ export const AddCartWrapper = styled.div`
     transition: 0.4s;
 
     :hover {
-      background: ${({ theme }) => theme.colors['brand-purple']};
+      background: ${({ theme }) => theme.colors['brand-red-dark']};
     }
   }
 `;

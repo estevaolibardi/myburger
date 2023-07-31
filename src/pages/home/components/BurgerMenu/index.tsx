@@ -7,7 +7,7 @@ export function BurgerMenu() {
   return (
     <BurgerMenuContainer className="container">
       <TitleText size="l" color="subtitle">
-        Nossos hamburgueres
+        Nossos burgers
       </TitleText>
 
       <BurgerList>

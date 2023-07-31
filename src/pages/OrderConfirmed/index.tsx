@@ -1,6 +1,6 @@
 import { RegularText, TitleText } from '../../components/Typography';
 import { OrderConfirmedContainer, OrderDetailsContainer } from './styles';
-import confirmedOrderImg from '../../assets/confirmedOrderImg.png';
+import confirmedOrderImg from '../../assets/confirmedOrdemImg.png';
 import { InfoWithIcon } from '../../components/InfoWithIcon';
 import { MapPin, Clock, CurrencyDollar } from 'phosphor-react';
 import { useTheme } from 'styled-components';
@@ -32,7 +32,9 @@ export function OrderConfirmedPage() {
   return (
     <OrderConfirmedContainer className="container">
       <div>
-        <TitleText size="l">Uhu! Pedido confirmado</TitleText>
+        <TitleText size="l" color="red-ce">
+          Uhu! Pedido confirmado
+        </TitleText>
         <RegularText size="l" color="subtitle">
           Agora é só aguardar que logo o café chegará até você
         </RegularText>
@@ -42,21 +44,21 @@ export function OrderConfirmedPage() {
         <OrderDetailsContainer>
           <InfoWithIcon
             icon={<MapPin weight="fill" />}
-            iconBg={colors['brand-purple']}
+            iconBg={colors['brand-red-ce']}
             text={
               <RegularText>
-                Entrega em
+                Entrega em &nbsp;
                 <strong>
                   {state.street}, {state.number}
                 </strong>
                 <br />
-                {state.district}- {state.city}, {state.uf}
+                {state.district} - {state.city}, {state.uf}
               </RegularText>
             }
           />
           <InfoWithIcon
             icon={<Clock weight="fill" />}
-            iconBg={colors['brand-yellow']}
+            iconBg={colors['brand-red-ce']}
             text={
               <RegularText>
                 Previsão de entrega
@@ -67,7 +69,7 @@ export function OrderConfirmedPage() {
           />
           <InfoWithIcon
             icon={<CurrencyDollar weight="fill" />}
-            iconBg={colors['brand-purple']}
+            iconBg={colors['brand-red-ce']}
             text={
               <RegularText>
                 Pagamento na entrega
